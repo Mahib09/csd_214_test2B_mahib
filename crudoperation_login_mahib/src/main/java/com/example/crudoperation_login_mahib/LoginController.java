@@ -16,16 +16,6 @@ import java.sql.*;
 
 public class LoginController {
     @FXML
-    private TextField loginUsername;
-    @FXML
-    private PasswordField loginPassword;
-    @FXML
-    private Label loginMessage;
-
-    String jdbcUrl = "jdbc:mysql://localhost:3306/csd214_mahib_test2";
-    String dbUser = "root";
-    String dbPassword = "";
-    @FXML
     protected void onLoginClick(){
 
           }
