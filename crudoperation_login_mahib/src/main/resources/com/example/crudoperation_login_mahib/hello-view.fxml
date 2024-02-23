@@ -25,7 +25,7 @@
                   <Circle fill="DODGERBLUE" opacity="0.59" radius="168.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
                </center>
             </BorderPane>
-            <Label fx:id="welcomeText" layoutX="248.0" layoutY="34.0" text="Employee Management System" underline="true">
+            <Label fx:id="IntroText" layoutX="248.0" layoutY="34.0" text="Employee Management System" underline="true">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
@@ -35,9 +35,9 @@
             <Label layoutX="278.0" layoutY="148.0" text="Task Name" />
             <TextField fx:id="fieldName" layoutX="379.0" layoutY="144.0" promptText=" Task Name" />
             <Label layoutX="279.0" layoutY="184.0" text="Task Description" />
-            <TextField fx:id="fieldEmail" layoutX="379.0" layoutY="180.0" prefHeight="59.0" prefWidth="209.0" promptText="Task Description" />
+            <TextField fx:id="fieldDescription" layoutX="379.0" layoutY="180.0" prefHeight="59.0" prefWidth="209.0" promptText="Task Description" />
             <Label layoutX="278.0" layoutY="251.0" text="Task Status" />
-            <TextField fx:id="fieldPhone" layoutX="379.0" layoutY="247.0" promptText="Task_Status" />
+            <TextField fx:id="fieldStatus" layoutX="379.0" layoutY="247.0" promptText="Task_Status" />
             <Button fx:id="btnInsert" layoutX="348.0" layoutY="282.0" mnemonicParsing="false" onAction="#onInsertButtonClicked" text="Insert" />
             <Button fx:id="btnRead" layoutX="231.0" layoutY="282.0" mnemonicParsing="false" onAction="#onReadButtonClicked" text="Show Database" />
             <Button fx:id="btnUpdate" layoutX="413.0" layoutY="282.0" mnemonicParsing="false" onAction="#onUpdateButtonClicked" text="Update" />
@@ -46,8 +46,8 @@
               <columns>
                 <TableColumn fx:id="tblColId" prefWidth="76.00000381469727" text="Task Id" />
                 <TableColumn fx:id="tblColName" prefWidth="167.199951171875" text="Task Name" />
-                  <TableColumn fx:id="tblColEmail" minWidth="5.60003662109375" prefWidth="282.3999938964844" text="Task Description" />
-                  <TableColumn fx:id="tblColPhone" prefWidth="118.39996337890625" text="Task Status" />
+                  <TableColumn fx:id="tblColDescription" minWidth="5.60003662109375" prefWidth="282.3999938964844" text="Task Description" />
+                  <TableColumn fx:id="tblColStaus" prefWidth="118.39996337890625" text="Task Status" />
               </columns>
             </TableView>
             <Button layoutX="559.0" layoutY="282.0" mnemonicParsing="false" onAction="#onLoadButtonClicked" text="Load Data" />
