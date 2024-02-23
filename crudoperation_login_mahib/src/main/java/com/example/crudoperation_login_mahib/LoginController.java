@@ -26,8 +26,7 @@ public class LoginController {
     String dbUser = "root";
     String dbPassword = "";
     @FXML
-    protected void onLoginClick(){
-
+   protected void onLoginClick(){
 
     }
 
